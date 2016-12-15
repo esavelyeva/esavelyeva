@@ -1,0 +1,41 @@
+//
+// SESSION MANAGER STYLES
+//
+
+.session-manager {
+    margin-left: -30px;
+
+    h2 {
+        color: hsl(0,0%,33%);
+        margin-left: 25px;
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        white-space: nowrap;
+        padding: 3px 0;
+    }
+
+    a {
+        text-decoration: none;
+        vertical-align: middle;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .sb-favicon {
+        height: 16px;
+        width: 16px;
+        margin-right: 12px;
+        vertical-align: middle;
+    }
+}
